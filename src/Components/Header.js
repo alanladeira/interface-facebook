@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import {FaUserCircle} from 'react-icons/fa'
 
-import '../../node_modules/@fortawesome/fontawesome-free/js/all.js'
 import './Header.css'
+
 
 
 
@@ -12,7 +13,7 @@ class Header extends Component {
         <header>
           <nav>
             <div className="logo">facebook</div>
-            <div className="menu">Meu Perfil <span><i class="fas fa-user-circle"></i></span></div>
+            <div className="menu">Meu Perfil <span><FaUserCircle className="icon" /></span></div>
           </nav>        
         </header>
       </>
